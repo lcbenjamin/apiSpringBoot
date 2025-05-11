@@ -15,3 +15,4 @@ spring:
     password: Lucas123@s
 
 api.security.token.secret: ${JWT_SECRET:12345678}
+server.error.include-stacktrace: never
