@@ -47,5 +47,6 @@ public class AgendaDeConsultas {
         if (medico == null) {
             throw new ValidacaoException("Não existe medico disponível nessa data");
         }
+        return medico;
     }
 }
